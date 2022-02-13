@@ -1,0 +1,288 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{	
+	padding: 2rem 3rem;
+	margin: 0rem 3rem;
+	font-size: 5rem;
+	font-weight: 500;
+	font-family: 'Advent Pro', sans-serif;
+
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2rem;
+}
+
+	
+	
+
+/* NAVBAR............................ */
+
+.navbar{
+	justify-content: center;
+	margin: auto;
+	padding: 5rem;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+.links{
+	display: flex;
+}
+
+.account{
+	text-align: center;
+	padding: .3rem 2rem;
+	margin: auto;
+}
+.cart{
+	margin: auto;
+	border-radius: .3rem;
+	background-color: #F29494;
+	text-align: center;
+	padding: .3rem 2rem;
+	-webkit-border-radius: .3rem;
+	-moz-border-radius: .3rem;
+	-ms-border-radius: .3rem;
+	-o-border-radius: .3rem;
+}
+.logo h2{
+	font-size: 3rem;
+	font-weight: bolder;
+  	background: linear-gradient(to left, #F29494, #2B3544);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+/* MAIN-SECTION............ */
+
+.main-section{
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+}
+
+.main-section {
+	-webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.text-section{
+	margin: auto 0rem;
+	justify-content: center;
+}
+.text-section h2{
+	letter-spacing: .2rem;
+	font-weight:bolder;
+	background: linear-gradient(to bottom right, #5D2E46, #119DA4);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	
+	font-size: 2.5rem;
+	font-weight: 300;
+	padding: 0rem 3rem;
+	margin: 0rem 3rem;
+}
+.text-section h3{
+	color: rgb(94, 94, 94);
+	letter-spacing: .1rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	padding: .2rem 3.5rem;
+	margin: 0.2rem 3rem;
+}
+
+
+
+/* BOTTOM SECTION................ */
+
+
+
+.bottom-section{
+	display: flex;
+	padding-top:5rem;
+	justify-content: center;
+
+}
+.prod-info{
+	justify-content: center;
+	margin: auto;
+}
+
+
+.prod-1,.prod-2{
+	justify-content: center;
+	margin: 2rem;
+	padding: 1rem;
+	display: flex;
+	color: whitesmoke;
+	width: 40rem;
+	height: 12rem;
+	border-radius: 2rem;
+	background-color: #2B3544;
+	-webkit-border-radius: 2rem;
+	-moz-border-radius: 2rem;
+	-ms-border-radius: 2rem;
+	-o-border-radius: 2rem;
+}
+
+.prod-1 img{
+	position: relative;
+	bottom: 4rem;
+	height: 16rem;
+}
+.prod-2 img{
+	position: relative;
+	bottom: 5rem;
+	height: 18rem;
+}
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1000px)  {
+
+	body{
+		display: inline-block;
+		vertical-align: middle;
+	}
+/* NAVBAR............................ */
+
+	.navbar{
+		padding: 2rem;
+		width: 100%;
+	}
+	h3{
+		font-size: 1rem;
+	}
+	.logo h2{
+		font-size: 2.5rem;
+		font-weight: bolder;
+  		background: linear-gradient(to left, #F29494, #2B3544);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+	}
+	h1{
+		padding: 0%;
+		margin: 0%;
+		font-size: 4rem;
+	}
+
+/* Main Section............................ */
+
+
+	.main-section{
+		width: 100%;
+		justify-items: center;
+		display: inline-block;
+		vertical-align: middle;
+
+	}
+	.text-section{
+		margin: 2rem;
+	}
+	.text-section h2{
+		font-size: 2rem;
+		font-weight: 300;
+		padding: 0%;
+		margin: 0%;
+	}
+	.text-section h3{
+		word-spacing: normal;
+		font-size: 2rem;
+		padding: 0%;
+		margin: 0%;
+	}
+
+	.watch-image img{
+		
+		width: 100%;
+	}
+/* BOTTOM Section............................ */
+
+	.bottom-section{
+		display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.prod-info{
+		text-align: center;
+		width: 100%;
+		vertical-align: middle;
+		margin: 0%;
+		padding: 2rem;
+
+	}
+
+
+	.prod-1,.prod-2{
+		backdrop-filter: blur(2rem);
+		background-color: #2b35449c;
+		display: block;
+		margin: 3rem auto;
+		padding: 0%;
+		width: 22rem;
+		height: 25rem;
+
+	}
+
+	.prod-1 img{
+		bottom: 0rem;
+		padding-left: 4rem;
+		margin:auto;
+		height: 12rem;
+	}
+	.prod-2 img{
+		margin:auto;
+		padding-left: 4rem;
+		bottom: 0rem;
+		height: 13rem;
+	}
+
+}
+
+
+
+
+/* ANIMATION............. */
+
+
+
+
+
+@-webkit-keyframes slide-in-bck-center {
+	0% {
+	  -webkit-transform: translateZ(600px);
+			  transform: translateZ(600px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes slide-in-bck-center {
+	0% {
+	  -webkit-transform: translateZ(600px);
+			  transform: translateZ(600px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  opacity: 1;
+	}
+  }
+  
